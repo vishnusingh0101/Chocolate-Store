@@ -1,0 +1,53 @@
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+
+.container {
+    padding: 2%;
+}
+
+
+.errors {
+    margin-left: 0%;
+    margin-right: auto;
+    padding: 1%;
+}
+
+#error {
+    color: red;
+}
+
+.addButton {
+    
+    width: 100%;
+    margin-top: 10%;
+    color: aliceblue;
+    background-color: #795548;
+    border-radius: 7px;
+    padding: 5px;
+}
+
+ul {
+    padding-left: 0;
+}
+
+li {
+    list-style-type: none;
+    background-color: rgb(238, 193, 143);
+    border: 1px solid #795548;
+    border-radius: 5px;
+    padding: 5px;
+    margin-top: 3px;
+    display: flex;
+}
+
+.soldButton {
+    margin-left: 5px;
+    width: 10%;
+    color: aliceblue;
+    background-color: #795548;
+    border-radius: 7px;
+}
